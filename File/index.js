@@ -26,7 +26,7 @@ const hotels = [
 ];
 
 // مفتاح API الخاص بك لخدمة الموقع الجغرافي (قم بتحديث هذا الحقل)
-const GEOLOCATION_API_KEY = "YOUR_ABSTRACT_API_KEY"; 
+const GEOLOCATION_API_KEY = "60a92e68c7ac493091b99c2bb1274436"; 
 
 // مسار لجلب الفنادق مع التحقق من الموقع الجغرافي
 app.get("/hotels", async (req, res) => {
